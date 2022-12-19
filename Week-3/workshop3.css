@@ -1,3 +1,12 @@
 h2 {
     border: 1px solid #000;
   }
+#Introduction{
+  border: 1px solid chocolate;
+  font-size: large;
+}
+Input[type=“text”]{
+
+  font-size: 20px;
+  line-height: 1.2;
+}
