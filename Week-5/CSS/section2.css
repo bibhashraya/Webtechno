@@ -51,3 +51,27 @@ img{
   
     
 }
+@media screen and (max-width: 1024px) {
+   
+    }
+
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+      padding-bottom: 50px;
+    }
+  
+    .content-wrapper,
+    img {
+      width: 100%;
+    }
+  
+    img {
+      height: 300px;
+    }
+}
+  
+@media screen and (max-width: 420px) {
+    .button a {
+      text-align: center;
+    }
+}
