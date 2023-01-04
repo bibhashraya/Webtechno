@@ -1,0 +1,57 @@
+.fourth-section .left-section {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.fourth-section .right-section {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 120px 0;
+}
+
+.fourth-section .right-section h2 {
+    font-size: 66px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding-left: 80px;
+    margin-bottom: 250px;
+}
+
+.fourth-section .right-section ul {
+    padding-left: 80px;
+    list-style: none;
+    margin: 0;
+}
+
+.divider{
+    display: flex;
+
+}
+img{
+    object-fit: cover;
+}
+
+
+
+.fourth-section .right-section ul li {
+    font-size: 29px;
+    color: #FFFFFF;
+    line-height: 1.75;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .fourth-section .divider {
+        flex-direction: column-reverse;
+    }
+
+    .fourth-section .left-section {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .fourth-section .right-section {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,61 @@
+.speaker-lists {
+    display: flex;
+
+}
+
+.speaker-list img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.speaker-list {
+    flex: 0 0 33.333%;
+    width: 33.333%;
+}
+
+.third-section h2 {
+    font-size: 53px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.speaker-list {
+    text-align: center;
+}
+
+.speaker-list h3 {
+    font-size: 29px;
+    margin-bottom: 5px;
+}
+
+.speaker-list span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+
+.speaker-list span.date {
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+
+
+.speaker-list:nth-child(2) .img-holder {
+    padding: 0 30px;
+}
+
+.speaker-list:nth-child(1) .img-holder {
+    padding-right: 60px;
+}
+
+.speaker-list .img-holder {
+    height: 350px;
+}
+
+.speaker-list:nth-child(3) .img-holder {
+    padding-left: 60px;
+}
