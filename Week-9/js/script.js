@@ -4,4 +4,9 @@
  document.getElementById("paragraph").innerHTML="<h1> Hello World</h1>";
 //  document.getElementById("paragraph").style.color="purple";
 //  document.getElementById("paragraph").style.background="black";
-document.getElementById("paragraph").style.cssText="color=purple; background=aqua";
+document.getElementById("paragraph").style.cssText="color:purple; background:black";
+
+var age=10;
+ age1=10;
+let age3=10;
+
